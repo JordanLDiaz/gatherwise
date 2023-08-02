@@ -46,7 +46,8 @@
                 </p>
               </div>
 
-              <div v-if="!isAttending && !activeEvent.isCanceled" class="col-4 text-center">
+              <div v-if="!isAttending && !activeEvent.isCanceled && activeEvent.ticketCount != activeEvent.capacity"
+                class="col-4 text-center">
                 <button @click="buyTicket()" type="button" class="btn btn-outline hvr-pulse">Buy Ticket</button>
               </div>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="container mb-0">
     <section class="row justify-content-center">
-      <div class="col-12 text-center m-2 elevation-3 hero rounded"></div>
+      <div class="col-12 text-center m-3 elevation-3 hero rounded"></div>
     </section>
   </div>
 
@@ -65,11 +65,11 @@ export default {
 <style scoped lang="scss">
 .hero {
   // NOTE placing background img here instead of in img tag in template, img tag in template creates an object and then properties for background-img won't work. 
-  background-image: url('../assets/img/banner.png');
+  background-image: url('../assets/img/banner.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: none;
-  height: 45vh;
+  height: 50vh;
   width: 95%;
 }
 

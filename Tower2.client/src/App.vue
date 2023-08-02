@@ -6,8 +6,7 @@
         <router-view />
       </div>
       <div class="col-1 side-bar">
-        <button v-if="account.id" type="button" class="btn btn-outline-peach my-3 hvr-pulse rounded"
-          data-bs-toggle="modal" data-bs-target="#createEventModal"><span class="mdi mdi-plus-box"></span>Event</button>
+        <SideNav />
       </div>
     </div>
   </main>
